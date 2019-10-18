@@ -1,22 +1,137 @@
-.App {
+/* HEADER */
+
+.header {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #64cddb;
+  color: whitesmoke;
+  font-family: 'MikadoBold' sans-serif;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.header-button {
+  margin-right: 30px;
+}
+
+
+/* BUTTON */
+
+button {
+  font-size: 15px;
+  font-family: 'MikadoBold' sans-serif;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 600;
+  color: #33CE59;
+  border: 2px solid;
+  height: 40px;
+  width: 180px;
+}
+
+/* LANDING */
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 75px);
+  background-color: #FCCC1D;
+  color: #FC7338;
+}
+
+.landing-main {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 25px;
+  margin-bottom: 50px;
+}
+
+
+/* WORDINPUTS */
+
+.inputs-background {
+  background-color: #DA4648;
+  height: calc(100vh - 75px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs-container {
+  background-color: whitesmoke;
+  height: 740px;
+  width: 500px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.input-box {
+  width: 150px;
+  font-size: 15px;
+  font-family: 'MikadoBold' sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* SUBMIT */
+
+.submit-background {
+  background-color: #AE47B5;
+  height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.submit-text {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 25px;
+  margin-bottom: 50px;
+  color: whitesmoke;
+}
+
+.submit-button-container {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+
+/* OUTPUT */
+
+.output-background {
+  background-color: #FE8FA0;
+  height: calc(100vh - 75px);
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+.output-text {
+  font-size: 20px;
+  margin-left: 10px;
+  padding-top: 5px;
 }
